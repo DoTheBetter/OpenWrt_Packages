@@ -7,14 +7,14 @@
 ## 软件清单
 |软件|分支|作者|功能|包类型|更新日期|应用包|
 |:-|:-|:-|:-|:-|:-|:-|
-|[golang](https://github.com/sbwml/packages_lang_golang)|26.x|sbwml|golang(geodata、xray 等依赖高版本 go)|single|20260207||
+|[golang](https://github.com/sbwml/packages_lang_golang)|26.x|sbwml|golang(geodata、xray 等依赖高版本 go)|single|20260603||
 |[luci-theme-argon](https://github.com/jerrykuku/luci-theme-argon)|master|jerrykuku|argon 主题|single|20260518||
 |[luci-app-argon-config](https://github.com/jerrykuku/luci-app-argon-config)|master|jerrykuku|argon 主题配置插件|single|20260413||
 |[luci-app-netwizard](https://github.com/sirpdboy/luci-app-netwizard)|main|sirpdboy|设置向导|multi|20260312|luci-app-netwizard|
 |[luci-app-partexp](https://github.com/sirpdboy/luci-app-partexp)|main|sirpdboy|分区管理|multi|20260330|luci-app-partexp|
 |[luci-app-taskplan](https://github.com/sirpdboy/luci-app-taskplan)|main|sirpdboy|计划任务|multi|20260312|luci-app-taskplan|
 |[luci-app-timecontrol](https://github.com/sirpdboy/luci-app-timecontrol)|main|sirpdboy|上网时间控制|multi|20260606|luci-app-timecontrol|
-|[luci-app-adguardhome](https://github.com/kenzok78/luci-app-adguardhome)|main|kenzok78|adguardhome|single|20260602||
+|[luci-app-adguardhome](https://github.com/kenzok78/luci-app-adguardhome)|main|kenzok78|adguardhome|single|20260609||
 |[luci-app-fileassistant](https://github.com/kenzok8/small-package)|main|kenzok8|文件管理fileassistant|multi|20260609|luci-app-fileassistant|
 |[luci-app-smartdns](https://github.com/pymumu/luci-app-smartdns)|master|pymumu|smartdns luci 界面|single|20251219||
 |[smartdns](https://github.com/pymumu/openwrt-smartdns)|master|pymumu|smartdns|single|20260129||
