@@ -7,7 +7,7 @@
 ## 软件清单
 |软件|分支|作者|功能|包类型|更新日期|应用包|
 |:-|:-|:-|:-|:-|:-|:-|
-|[golang](https://github.com/sbwml/packages_lang_golang)|25.x|sbwml|golang(geodata、xray 等依赖高版本 go)|single|20260603||
+|[golang](https://github.com/sbwml/packages_lang_golang)|26.x|sbwml|golang(geodata、xray 等依赖高版本 go)|single|20260603||
 |[luci-theme-argon](https://github.com/jerrykuku/luci-theme-argon)|master|jerrykuku|argon 主题|single|20260518||
 |[luci-app-argon-config](https://github.com/jerrykuku/luci-app-argon-config)|master|jerrykuku|argon 主题配置插件|single|20260413||
 |[luci-app-netwizard](https://github.com/sirpdboy/luci-app-netwizard)|main|sirpdboy|设置向导|multi|20260312|luci-app-netwizard|
