@@ -15,7 +15,7 @@
 |[luci-app-taskplan](https://github.com/sirpdboy/luci-app-taskplan)|main|sirpdboy|计划任务|multi|20260312|luci-app-taskplan|
 |[luci-app-timecontrol](https://github.com/sirpdboy/luci-app-timecontrol)|main|sirpdboy|上网时间控制|multi|20260606|luci-app-timecontrol|
 |[luci-app-adguardhome](https://github.com/kenzok78/luci-app-adguardhome)|main|kenzok78|adguardhome|single|20260609||
-|[luci-app-fileassistant](https://github.com/kenzok8/small-package)|main|kenzok8|文件管理fileassistant|multi|20260610|luci-app-fileassistant|
+|[luci-app-fileassistant](https://github.com/kenzok8/small-package)|main|kenzok8|文件管理fileassistant|multi|20260611|luci-app-fileassistant|
 |[luci-app-smartdns](https://github.com/pymumu/luci-app-smartdns)|master|pymumu|smartdns luci 界面|single|20251219||
 |[smartdns](https://github.com/pymumu/openwrt-smartdns)|master|pymumu|smartdns|single|20260129||
 |[luci-app-mosdns](https://github.com/sbwml/luci-app-mosdns)|v5|sbwml|mosdns|single|20260606||
