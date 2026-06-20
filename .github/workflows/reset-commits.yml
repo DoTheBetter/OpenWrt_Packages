@@ -1,0 +1,86 @@
+name: Reset Commits
+on:
+  workflow_dispatch:
+    inputs:
+      commit_message:
+        description: '新的提交信息'
+        required: true
+        default: 'chore: reset commit history'
+        type: string
+
+env:
+  TZ: Asia/Shanghai
+
+permissions:
+  contents: write
+
+jobs:
+  Get_Branches:
+    runs-on: ubuntu-latest
+    outputs:
+      branches: ${{ steps.get-branches.outputs.branches }}
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Get All Branches
+        id: get-branches
+        run: |
+          # 获取所有远程分支（排除 HEAD），并转换为 JSON 数组
+          branches=$(git branch -r | grep -v '\->' | sed 's/.*origin\///' | jq -R -s -c 'split("\n") | map(select(length > 0))')
+          echo "branches=$branches" >> $GITHUB_OUTPUT
+          echo "找到的分支: $branches"
+
+  Reset_Commits:
+    needs: [ Get_Branches ]
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        branch: ${{ fromJson(needs.Get_Branches.outputs.branches) }}
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ matrix.branch }}
+          fetch-depth: 0
+
+      - name: Configure Git
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+
+      - name: Reset Commits
+        run: |
+          # 获取当前分支
+          CURRENT_BRANCH=$(git branch --show-current)
+          echo "当前分支: $CURRENT_BRANCH"
+
+          # 创建唯一的临时分支名（包含分支名避免冲突）
+          TEMP_BRANCH="temp-${{ matrix.branch }}-$(date +%s)"
+          echo "临时分支: $TEMP_BRANCH"
+
+          # 创建临时分支保存当前状态
+          git checkout --orphan "$TEMP_BRANCH"
+
+          # 添加所有文件并提交
+          git add -A
+          git commit -m "${{ inputs.commit_message }}"
+
+          # 删除原分支
+          git branch -D ${{ matrix.branch }}
+
+          # 重命名当前分支为目标分支
+          git branch -m ${{ matrix.branch }}
+
+          echo "✅ 分支 $CURRENT_BRANCH 提交已完全重置为单个提交"
+
+      - name: Push Changes
+        run: |
+          git push origin ${{ matrix.branch }} --force
+          echo "✅ 已推送到远程分支 ${{ matrix.branch }}"
