@@ -17,7 +17,7 @@
 |[luci-app-adguardhome](https://github.com/kenzok78/luci-app-adguardhome)|main|kenzok78|adguardhome|single|20260611||
 |[luci-app-fileassistant](https://github.com/kenzok8/small-package)|main|kenzok8|文件管理fileassistant|multi|20260701|luci-app-fileassistant|
 |[luci-app-smartdns](https://github.com/pymumu/luci-app-smartdns)|master|pymumu|smartdns luci 界面|single|20260612||
-|[smartdns](https://github.com/pymumu/openwrt-smartdns)|master|pymumu|smartdns|single|20260627||
+|[smartdns](https://github.com/pymumu/openwrt-smartdns)|master|pymumu|smartdns|single|20260701||
 |[luci-app-lucky](https://github.com/gdy666/luci-app-lucky)|main|gdy666|lucky 插件|multi|20260215||
 |[luci-app-easytier](https://github.com/EasyTier/luci-app-easytier)|main|EasyTier|EasyTier 插件|multi|20260624||
 |[luci-app-mosdns](https://github.com/sbwml/luci-app-mosdns)|v5|sbwml|mosdns|multi|20260606||
