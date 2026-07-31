@@ -29,10 +29,6 @@ jobs:
         with:
           ref: ${{ matrix.branch }}
 
-      - name: Install Dependencies
-        run: |
-          sudo timedatectl set-timezone "$TZ"
-
       - name: Update OpenWrt Packages
         id: update
         run: |
