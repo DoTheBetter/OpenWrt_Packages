@@ -18,7 +18,7 @@
 |[luci-app-fileassistant](https://github.com/kenzok8/small-package)|main|kenzok8|文件管理fileassistant|multi|20261005|luci-app-fileassistant|
 |[luci-app-smartdns](https://github.com/pymumu/luci-app-smartdns)|master|pymumu|smartdns luci 界面|single|20260708||
 |[smartdns](https://github.com/pymumu/openwrt-smartdns)|master|pymumu|smartdns|single|20260701||
-|[luci-app-lucky](https://github.com/gdy666/luci-app-lucky)|main|gdy666|lucky 插件|multi|20260215||
+|[luci-app-lucky](https://github.com/gdy666/luci-app-lucky)|main|gdy666|lucky 插件|multi|20261005||
 |[luci-app-easytier](https://github.com/EasyTier/luci-app-easytier)|main|EasyTier|EasyTier 插件|multi|20260925||
 |[luci-app-mosdns](https://github.com/sbwml/luci-app-mosdns)|v5|sbwml|mosdns|multi|20260913||
 |[v2ray-geodata](https://github.com/sbwml/v2ray-geodata)|master|sbwml|mosdns 依赖|single|20250125||
