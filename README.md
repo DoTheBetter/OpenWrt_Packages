@@ -9,7 +9,7 @@
 |:-|:-|:-|:-|:-|:-|:-|
 |[golang](https://github.com/sbwml/packages_lang_golang)|26.x|sbwml|golang(geodata、xray 等依赖高版本 go)|single|20260902||
 |[luci-theme-argon](https://github.com/jerrykuku/luci-theme-argon)|master|jerrykuku|argon 主题|single|20261001||
-|[luci-app-argon-config](https://github.com/jerrykuku/luci-app-argon-config)|master|jerrykuku|argon 主题配置插件|single|20260413||
+|[luci-app-argon-config](https://github.com/jerrykuku/luci-app-argon-config)|master|jerrykuku|argon 主题配置插件|single|20261008||
 |[luci-app-netwizard](https://github.com/sirpdboy/luci-app-netwizard)|main|sirpdboy|设置向导|multi|20260312|luci-app-netwizard|
 |[luci-app-partexp](https://github.com/sirpdboy/luci-app-partexp)|main|sirpdboy|分区管理|multi|20260330|luci-app-partexp|
 |[luci-app-taskplan](https://github.com/sirpdboy/luci-app-taskplan)|main|sirpdboy|计划任务|multi|20260312|luci-app-taskplan|
@@ -22,4 +22,4 @@
 |[luci-app-easytier](https://github.com/EasyTier/luci-app-easytier)|main|EasyTier|EasyTier 插件|multi|20260925||
 |[luci-app-mosdns](https://github.com/sbwml/luci-app-mosdns)|v5|sbwml|mosdns|multi|20260913||
 |[v2ray-geodata](https://github.com/sbwml/v2ray-geodata)|master|sbwml|mosdns 依赖|single|20250125||
-|[luci-app-nikki](https://github.com/nikkinikki-org/OpenWrt-nikki)|main|nikki|Mihomo on OpenWrt|multi|20260917||
+|[luci-app-nikki](https://github.com/nikkinikki-org/OpenWrt-nikki)|main|nikki|Mihomo on OpenWrt|multi|20261008||
