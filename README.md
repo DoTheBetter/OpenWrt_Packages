@@ -22,4 +22,4 @@
 |[luci-app-easytier](https://github.com/EasyTier/luci-app-easytier)|main|EasyTier|EasyTier 插件|multi|20261014||
 |[luci-app-mosdns](https://github.com/sbwml/luci-app-mosdns)|v5|sbwml|mosdns|multi|20261025||
 |[v2ray-geodata](https://github.com/sbwml/v2ray-geodata)|master|sbwml|mosdns 依赖|single|20250125||
-|[luci-app-nikki](https://github.com/nikkinikki-org/OpenWrt-nikki)|main|nikki|Mihomo on OpenWrt|multi|20261014||
+|[luci-app-nikki](https://github.com/nikkinikki-org/OpenWrt-nikki)|main|nikki|Mihomo on OpenWrt|multi|20261112||
